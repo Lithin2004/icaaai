@@ -1,0 +1,3047 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<!-- Basic -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>ICAAAI-2025</title>	
+
+		<meta name="keywords" content="WebSite Template" />
+		<meta name="description" content="Porto - Multipurpose Website Template">
+		<meta name="author" content="okler.net">
+
+		<!-- Favicon -->
+		<!-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" /> -->
+		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+
+		<!-- Web Fonts  -->
+		<link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light&display=swap" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">
+		<link rel="stylesheet" href="vendor/animate/animate.compat.css">
+		<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">
+		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
+		<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="css/theme.css">
+		<link rel="stylesheet" href="css/theme-elements.css">
+		<link rel="stylesheet" href="css/theme-blog.css">
+		<link rel="stylesheet" href="css/theme-shop.css">
+		<link rel="stylesheet" href="css/marquee.css">
+
+
+		<!-- Revolution Slider CSS -->
+		<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css">
+		<link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
+		<link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
+
+		<!-- Demo CSS -->
+		<link rel="stylesheet" href="css/demos/demo-event.css">
+
+		<!-- Skin CSS -->
+		<link id="skinCSS" rel="stylesheet" href="css/skins/skin-event.css">
+
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="css/custom.css">
+        
+
+		
+		 				border-radius: 5px;
+			
+		<style>
+			
+			.button-container {
+				display: flex;
+				justify-content: center;
+				gap: 20px; /* space between buttons */
+				margin-top: 50px; /* Added some space at the top */
+			}
+			.button {
+				background-color: #4CAF50; /* Green */
+				border: none;
+				color: white;
+				padding: 15px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				cursor: pointer;
+				border-radius: 12px;
+				transition: background-color 0.3s;
+				box-shadow: 0 5px 25px rgba(0,0,0,0.3);
+				
+			}
+			.button:hover {
+				background-color: #45a049;
+			}
+			.content {
+				display: none;
+				margin-top: 20px;
+				text-align: left;
+				margin-left: auto;
+				margin-right: auto;
+				width: 50%;
+			}
+			.content ul {
+				list-style-type: none;
+				padding: 0;
+			}
+			.content li {
+				background: rgba(0, 0, 0, 0.664);
+				COLOR:#fff;
+				margin: 5px 0;
+				padding: 10px;
+				border-radius: 5px;
+			}
+
+			/* review button */
+			.center-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px; /* Adjust as needed */
+    }
+
+    .review-button {
+        background-color: #4CAF50; /* Green background */
+        border: none; /* Remove borders */
+        color: white; /* White text */
+        padding: 15px 32px; /* Some padding */
+        text-align: center; /* Center the text */
+        text-decoration: none; /* Remove underline */
+        display: inline-block; /* Get it to display inline */
+        font-size: 16px; /* Increase font size */
+        cursor: pointer; /* Add a pointer cursor on hover */
+        border-radius: 12px; /* Rounded corners */
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /* Add shadow */
+        transition-duration: 0.4s; /* Add transition effect */
+    }
+
+    .review-button:hover {
+        background-color: #45a049; /* Darker green background on hover */
+    }
+
+	
+  
+
+   
+
+	/* gallery */
+	body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.gallery {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.gallery h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery-item {
+    width: calc(25% - 10px);
+    margin: 5px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+    .gallery-item {
+        width: calc(33.333% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-item {
+        width: calc(50% - 10px);
+    }
+}
+
+/* book */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.image-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.image-container {
+    flex: 1;
+    padding: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.content-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.content-container h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.content-container p {
+    font-size: 1em;
+    line-height: 1.6;
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  #footer {
+    background-color: #333333;
+    color: #ffffff;
+    width: 100vw; /* Ensure full width */
+    position: relative;
+    left: 0;
+    right: 0;
+  }
+
+  .footer-container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .w-100 {
+    width: 100%;
+  }
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .text-color-light {
+    color: #ffffff;
+  }
+
+  .text-decoration-none {
+    text-decoration: none;
+  }
+
+  .font-weight-bold {
+    font-weight: bold;
+  }
+
+  .text-decoration-underline {
+    text-decoration: underline;
+  }
+
+  a {
+    color: #20C997;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .bg-secondary {
+    background-color: #222222;
+    width: 100vw; /* Ensure full width */
+  }
+
+  .py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .py-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .text-2 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+    .image-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content-container {
+        padding: 10px;
+    }
+}
+
+
+/* price card */
+.pricing-card-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+		
+        }
+        .pricing-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 300px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .pricing-card:hover {
+            transform: translateY(-10px);
+        }
+        .pricing-card .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .pricing-card .price {
+            font-size: 48px;
+            color: #ff6b6b;
+            margin-bottom: 30px;
+			
+        }
+        .pricing-card .currency {
+            font-size: 24px;
+            vertical-align: top;
+        }
+        .pricing-card .features {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 20px 0;
+        }
+        .pricing-card .features li {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .pricing-card .cta-button {
+            background: #ff6b6b;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .pricing-card .cta-button:hover {
+            background: #ff4a4a;
+        }
+		
+		
+		/* PDF Viewer Modal Styles */
+/* PDF Viewer Modal - Clean Version */
+.pdf-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+}
+#brochureBtn{
+	background-color: #4CAF50;
+	color:white;
+	padding:15px;
+	box-shadow: 0 5px 25px rgba(0,0,0,0.3);
+	font-size: 16px;
+	font-weight: lighter;
+}
+#brochureBtn:hover{
+	background-color: #45a049;
+}
+
+
+.pdf-modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.pdf-modal-content {
+    position: relative;
+    margin: 2% auto;
+    width: 90%;
+    height: 90%;
+    background: white;
+    border-radius: 12px;
+	
+    box-shadow: 0 5px 25px rgba(0,0,0,0.3);
+    z-index: 10001;
+    overflow: hidden;
+}
+
+.pdf-viewer-container {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.pdf-modal-iframe {
+	
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.pdf-modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: rgba(0,0,0,0.2); /* Reduced opacity from 0.7 to 0.5 */
+    backdrop-filter: blur(5px); /* Reduced blur from 8px to 5px */
+    -webkit-backdrop-filter: blur(5px); /* Vendor prefix */
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 10002;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    transition: all 0.2s;
+}
+
+.pdf-modal-close:hover {
+    background: #ff0000;
+    transform: scale(1.1);
+}
+
+	
+/* Copied for moving pdf */
+
+.movingpdf-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+}
+
+
+.movingpdf-modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.movingpdf-modal-content {
+    position: relative;
+    margin: 2% auto;
+    width: 90%;
+    height: 90%;
+    background: white;
+    border-radius: 12px;
+	
+    box-shadow: 0 5px 25px rgba(0,0,0,0.3);
+    z-index: 10001;
+    overflow: hidden;
+}
+
+.movingpdf-viewer-container {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.movingpdf-modal-iframe {
+	
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.movingpdf-modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: rgba(0,0,0,0.2); /* Reduced opacity from 0.7 to 0.5 */
+    backdrop-filter: blur(5px); /* Reduced blur from 8px to 5px */
+    -webkit-backdrop-filter: blur(5px); /* Vendor prefix */
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 10002;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    transition: all 0.2s;
+}
+
+.movingpdf-modal-close:hover {
+    background: #ff0000;
+    transform: scale(1.1);
+}
+
+
+			</style>
+
+	
+
+		
+
+		<!-- Head Libs -->
+		<script src="vendor/modernizr/modernizr.min.js"></script>
+		
+
+	</head>
+
+	<body data-plugin-scroll-spy data-plugin-options="{'target': '#header'}">
+
+		<d class="body">
+
+			<style>
+				body {
+				  margin: 0;
+				  padding: 0;
+				}
+			  
+				#header {
+				  position: fixed;
+				  top: 0;
+				  width: 100%;
+				  z-index: 9999;
+				}
+			  
+				#home {
+				  margin-top: 70px; /* Adjust this to match the header's height */
+				}
+			  
+				.owl-carousel .owl-item {
+				  height: calc(100vh - 70px); /* Adjust 70px for header height */
+				}
+			  
+				.owl-item {
+				  display: flex;
+				  align-items: center;
+				  justify-content: center;
+				  height:500px;
+				}
+				.owl-item{
+					
+					background-image: url("img/backgroundimg.jpg");
+					background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+					text-align: center;
+					
+					
+				}
+				.owl-item h1{
+					margin-top:200px;
+					color:white;
+					font-weight: bolder;
+					font-size: 40px;
+					position:relative;
+					z-index:2;
+					
+					
+				}
+				.owl-item::before{
+					 background-color: rgba(0, 0, 0, 0.5);
+                    z-index: 1; 
+
+				}
+				
+
+			  
+				.owl-item::before {
+				  content: '';
+				  position: absolute;
+				  top: 0;
+				  left: 0;
+				  right: 0;
+				  bottom: 0;
+				   /* Optional overlay */
+				}
+				
+
+				
+				
+    .right-logos {
+      display: flex;
+      align-items: center;
+      gap: 10px; /* space between the two logos */
+      margin-left: 15px; /* space from nav */
+    }
+
+    .logo-img {
+      height: 60px;
+      object-fit: contain;
+    }
+	
+	
+	
+
+  
+					
+				
+			  </style>
+			  
+			   <header
+    id="header"
+    class="header-effect-shrink"
+    data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}"
+  >
+    <div class="header-body border-top-0 bg-quaternary box-shadow-none">
+      <div class="header-container container">
+        <div class="header-row">
+          <!-- Left Logo -->
+          <div class="header-column">
+            <div class="header-row">
+              <div class="header-logo">
+                <a href="index.html">
+                  <img
+                    src="img/srkr.png"
+                    class="img-fluid"
+                    width="134"
+                    height="43"
+                    alt="SRKR Logo"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Navigation + Right Images -->
+          <div class="header-column justify-content-end">
+            <div class="header-row align-items-center">
+              <div
+                class="header-nav header-nav-links header-nav-dropdowns-dark header-nav-light-text"
+              >
+                <div
+                  class="header-nav-main header-nav-main-mobile-dark header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1"
+                >
+                  <nav class="collapse">
+                    <ul class="nav nav-pills" id="mainNav">
+                      <li>
+                        <a class="nav-link font-weight-semibold" data-hash href="#home">HOME</a>
+                      </li>
+                      <li>
+                        <a class="nav-link font-weight-semibold" data-hash href="#about">ABOUT</a>
+                      </li>
+                      <li>
+                        <a class="nav-link font-weight-semibold" data-hash href="#speakers">CONFERENCE SPEAKERS</a>
+                      </li>
+                      <li>
+                        <a class="nav-link font-weight-semibold" data-hash href="#schedule">SCHEDULE</a>
+                      </li>
+                      <li>
+                        <a class="nav-link font-weight-semibold" data-hash href="#venue">LOCATION</a>
+                      </li>
+                      <li>
+                        <a class="nav-link font-weight-semibold" data-hash href="#contact">CONTACT</a>
+                      </li>
+                      <li>
+                        <a class="nav-link font-weight-semibold" data-hash href="#publish">PUBLICATIONS</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+                <button
+                  class="btn header-btn-collapse-nav"
+                  data-bs-toggle="collapse"
+                  data-bs-target=".header-nav-main nav"
+                >
+                  <i class="fas fa-bars"></i>
+                </button>
+              </div>
+
+              <!-- ✅ Right-side Images (Two Logos Side by Side) -->
+              <div class="right-logos d-none d-md-block">
+                <img src="img/srkrFounder.jpg" alt="Left Logo" class="logo-img" />
+                <img src="img/cse.png" alt="Right Logo" class="logo-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+
+
+
+
+
+
+
+			  
+			  
+			 <section id="home">
+  <style>
+    .home-background {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: background-image 1s ease-in-out;
+      height: calc(100vh - 70px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      overflow: hidden;
+    }
+
+    .home-background::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: -1;
+    }
+
+    .home-background h1 {
+      color: white !important;
+      font-size: 3rem;
+      font-weight: bold;
+      line-height: 1.4;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+      margin: 0;
+      z-index: 2;
+      position: relative;
+      top: -40px;
+    }
+
+   
+
+  
+    @media (max-width: 768px) {
+      .home-background h1 {
+        font-size: 2rem;
+        padding: 0 1rem;
+      }
+    }
+
+ 
+
+
+
+  </style>
+
+  <div role="main" class="main">
+    <div class="home-background" id="content">
+      <div class="moving-text">
+         <!-- <section class="border-0 bg-transparent pt-4" >
+    <div class="row justify-content" >
+        <div class="col text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="100" >
+            <button id="movingbrochureBtn" class="btn btn-primary btn-lg">ICAAAI-2025 Brochure</button>
+        </div>
+    </div>
+</section> -->
+      </div>
+      <h1>
+        ICAAAI-2025<br>
+        December 11–13<br>
+        SRKR Engineering College – Bhimavaram
+      </h1>
+    </div>
+  </div>
+
+  <!-- Modal Popup to display PDF -->
+  <!-- <div id="myModal" class="modal">
+    <div id="modalContent" class="modal-content">
+      <span class="close" id="closeModalBtn">&times;</span>
+      <iframe id="pdfFrame"></iframe>
+    </div>
+  </div> -->
+
+  <script>
+    const backgroundImages = [
+      'img/backgroundimg.jpg',
+      'img/sample.jpg'
+    ];
+
+    let index = 0;
+    const bgSection = document.querySelector('.home-background');
+
+    function switchBackground() {
+      bgSection.style.backgroundImage = `url('${backgroundImages[index]}')`;
+      index = (index + 1) % backgroundImages.length;
+    }
+
+    switchBackground();
+    setInterval(switchBackground, 3000);
+
+ 
+  </script>
+</section>
+
+
+			  
+					
+				  
+				<!--<div class="owl-nav">
+				  <button
+					type="button"
+					role="presentation"
+					class="owl-prev"
+					aria-label="Previous"
+				  ></button>
+				  <button
+					type="button"
+					role="presentation"
+					class="owl-next"
+					aria-label="Next"
+				  ></button>
+				</!--<div>
+				<div class="owl-dots mb-8">
+				  <button role="button" class="owl-dot active"><span></span></button>
+				  <button role="button" class="owl-dot"><span></span></button>                        
+				</div>
+			  </div>
+              </div> -->
+ <style>
+	 
+     @keyframes move-left {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+
+    /* Top strip with moving text */
+    .row-strip {
+      background-color: rgb(2, 0, 0);
+      margin-top:-24px;
+      overflow: hidden;
+      position: relative;
+      z-index: 10;
+    }
+
+    .moving-text-strip {
+      display: inline-block;
+      white-space: nowrap;
+      color:peachpuff;
+      font-size: 1.5rem;
+      animation: move-left 10s linear infinite;
+	  width:100%;
+	  cursor: pointer;
+      
+    }
+
+    .moving-text-strip:hover {
+      animation-play-state: paused;
+    }
+
+    /* Brochure button */
+    #movingbrochureBtn {
+      border: none;
+      background-color: transparent;
+      color:peru;
+      font-size: 1.5rem;
+      cursor: pointer;
+      margin-left: 20px;
+    }
+
+	 
+
+    .moving-text-strip button {
+      background:white;
+      border: none;
+      color: #FFFDD0;
+      text-decoration: none;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: inherit;
+      padding: 0;
+      margin-left: 5px;
+    }
+				blur {
+      filter: blur(5px);
+      pointer-events: none;
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 100;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-content {
+      display: none;
+      width: 80%;
+      max-width: 800px;
+      height: 90%;
+      background-color: white;
+      border-radius: 10px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .modal-content iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .close {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      color: black;
+      font-size: 30px;
+      font-weight: bold;
+      cursor: pointer;
+      z-index: 101;
+    }
+	
+		
+	
+	#movingbrochureBtn:hover{
+		background-color:none;
+
+	}
+	
+
+			  </style>
+			 
+			   <section class="border-0 bg-transparent pt-4">
+  <div class="row-strip justify-content">
+    <div class="moving-text-strip">
+      <button id="movingbrochureBtn" class="btn btn-primary btn-lg">ICAAAI-2025 Brochure</button>
+    </div>
+  </div>
+</section>
+
+
+	<script>
+		const modal = document.getElementById("myModal");
+    const modalContent = document.getElementById("modalContent");
+    const openBtn = document.getElementById("openModalBtn");
+    const closeBtn = document.getElementById("closeModalBtn");
+    const content = document.getElementById("content");
+    const pdfFrame = document.getElementById("pdfFrame");
+
+    openBtn.onclick = function () {
+      pdfFrame.src = "Broucher.pdf#toolbar=0&navpanes=0&scrollbar=0&statusbar=0&view=FitH";
+      modal.style.display = "flex";
+      modalContent.style.display = "block";
+      content.classList.add('blur');
+    }
+
+    closeBtn.onclick = function () {
+      modal.style.display = "none";
+      modalContent.style.display = "none";
+      pdfFrame.src = "";
+      content.classList.remove('blur');
+    }
+
+    window.onclick = function (event) {
+      if (event.target === modal) {
+        modal.style.display = "none";
+        modalContent.style.display = "none";
+        pdfFrame.src = "";
+        content.classList.remove('blur');
+      }
+    }
+	</script>
+
+			  <section id="about" class="border-0 bg-transparent pt-5">
+				<div class="container py-3">
+				  <div class="row">
+					<div class="col text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="100">
+					  <h2>ICAAAI</h2>
+					  <h3>About</h3>
+					</div>
+					<br><br>
+					<div class="tabs tabs-bottom tabs-center tabs-simple">
+					  <ul class="nav nav-tabs">
+						<li class="nav-item">
+						  <a class="nav-link active" href="#tabsNavigationSimple1" data-bs-toggle="tab">About College</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="#tabsNavigationSimple2" data-bs-toggle="tab">About Department CSE</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="#tabsNavigationSimple3" data-bs-toggle="tab">About Conference</a>
+						</li>
+					<!-- <li class="nav-item">
+						  <a class="nav-link" href="#tabsNavigationSimple4" data-bs-toggle="tab">Publication and Ethics Statement</a>
+						</li> -->	
+					  </ul>
+					  <div class="tab-content">
+						<div class="tab-pane active" id="tabsNavigationSimple1">
+						  <div class="text-center">
+							<h4>SRKR</h4>
+							<p class="text-justify"><strong>Sagi Rama Krishnam Raju Engineering College (SRKR),
+								established in 1980, is one of Andhra Pradesh's first self
+							   financing engineering institutions, dedicated to empowering
+								rural students through technical education. With its 30-acre
+								green campus, the college offers state-of-the-art facilities that
+								foster an inclusive and culturally responsive learning
+								environment. Over the years, SRKR has built a strong ethos of
+								creativity, confidence, and logical thinking in its students,
+								preparing them for nation-building and diverse careers. The
+								college's vision, inspired by its founder Sri Sagi Rama
+								Krishnam Raju, continues under the leadership of Sri S. Prasad
+								Raju, ensuring academic excellence. SRKR combines science,
+								creativity, and critical thinking to address societal challenges,
+								making it a hub for innovation and problem-solving. With 44
+								years of academic excellence, SRKR offers 12 B.Tech., 6
+								M.Tech., and 10 Ph.D. programs, alongside a B.B.A. program.
+								Accredited with an ‘A+’ Grade by NAAC and multiple NBA
+							   accredited B.Tech. programs, the institution is recognized by
+								AICTE and UGC for its outstanding contributions to education
+								and research. SRKR’s initiatives include the AICTE IDEA
+								Lab, Atal Community Innovation Centre, and Business
+								Incubation Centre, emphasizing entrepreneurship, innovation,
+								and skill development. Its 14 Centres of Excellence further drive
+								research culture, solving societal challenges through research
+								and development.</strong></p>
+						  </div>
+						</div>
+						<div class="tab-pane" id="tabsNavigationSimple2">
+						  <div class="text-center">
+							<h4>About Department CSE</h4>
+							<p class="text-justify"><strong> The Department of Computer Science and Engineering was
+								established in 1991, starting with a B.Tech. program and
+								has since grown significantly, with an intake rising from 40
+								to 300 by 2021. It also offers an M.Tech. program, launched
+								in 2006, and has been recognized as a research center by
+								JNTUK since 2019. The department has been continuously
+								accredited by the NBA four times since 2006. The
+								department is equipped with state-of-the-art infrastructure,
+								including 11 laboratories and 3 research labs, supported by a
+								highly qualified faculty, with 18 doctorates and 30 pursuing
+								Ph.D. programs. Faculty members are engaged in cutting
+							   edge research areas like Cryptography, AI, and IoT, with
+								collaborations from institutions like Bennett University and
+								TCS Ion, and projects funded by national and international
+								agencies totaling ₹1.68 crores. The department features an
+								impressive placement record with 598 offers in the 2022-23
+								academic year and a highest package of ₹29.5 lakhs per
+								annum. The SRKR CSE alumni have excelled in diverse
+								fields, with many holding influential positions and CEO
+								roles at well-reputed companies around the globe. The
+								department also organizes events like the annual technical
+								symposium "SPURTHI" and conferences to promote
+								research and student talent. To meet future industry
+								demands, the department has introduced specialized courses
+								and programs in AI, Machine Learning, IoT, and Data
+								Science.</strong></p>
+						  </div>
+						</div>
+						<div class="tab-pane" id="tabsNavigationSimple3">
+						  <div class="text-center">
+							<h4>ICAAAI Conference</h4>
+							<p class="text-justify"><strong> 3rd ICAAAI-2025 covers advanced artificial intelligence algorithms, including machine learning, deep learning, natural language processing, computer vision, reinforcement learning, cover AI, edge AI, responsible AI, explainable AI, and human-AI collaboration. AI systems benefit predictive maintenance, intelligent virtual assistants, tailored medication, and driverless cars. Large Language Models revolutionize natural language processing, while Collective AI uses multi-agent systems, swarm intelligence, machine learning, and game theory to tackle complex problems beyond individual capabilities. Advanced AI has the potential to revolutionize our lives and industries, but ethical and responsible AI are crucial. The integration of AI and ML technologies in cybersecurity is revolutionizing digital defense mechanisms, necessitating understanding how to effectively utilize these technologies and addressing their challenges. Ethical AI emphasizes moral considerations and aligns with human values, while responsible AI develops frameworks and principles to ensure dependable, trustworthy, and societally responsible AI systems. Embodied AI, a cutting-edge technology that integrates real-time perception, memory, learning, and adaptive action, is revolutionizing drone security, resilience, and autonomy in disaster response and precision agriculture applications. Advanced AI uses various algorithms for complex tasks, improving accuracy, efficiency, and decision-making in industries like computer vision, NLP, and robotics. The concepts, focusing on justice, accountability, transparency, data privacy, security, and inclusivity, include ethical AI, responsible AI, and quantum AI. Ethical AI is developing frameworks for responsible AI, while quantum AI combines computing and AI for potential applications. </strong></p>
+						  </div>
+						</div>
+						<section id="publish">
+							<div class="tab-pane" id="tabsNavigationSimple4">
+							  <div class="text-center">
+								<h4>About Publication and Ethics Statement</h4>
+								<p style="text-align: justify;"><strong>
+								  International Conference on Algorithms in Advanced Artificial Intelligence (ICAAAI-2025) was organized from December 11 to 13, 2025. All the participants who presented papers had their work published. The conference proceedings include a range of publication types—some treated as book publications and others as individual or collective academic contributions. These proceedings may appear as standalone books, book series, or collections of summaries or abstracts made available on platforms like Google and Amazon.
+
+                                  For the ICAAAI-2025 conference, participants met virtually to conduct comprehensive sessions. The conference proceedings serve as a record of the event, often including abstracts, reports, or full-text papers submitted and presented in various formats, such as books or individual publications.
+
+                                  CONFERENCE PROCEEDINGS ARE USUALLY INTENDED TO:
+                                  Allow researchers to engage with current research before it is formally published or widely disseminated, typically covering findings, experiments, theories, best practices, or new methodologies.
+
+                                  Provide a less formal setting for researchers to present their work, often reflected in the structure and style of the proceedings.
+
+                                  Enable the introduction of new concepts and methodologies in fields that are still developing.
+
+                                  Help emerging researchers establish connections with established researchers, teams, or institutions focusing on topics in Algorithms and Advanced Artificial Intelligence.
+
+                                  KEY DIFFERENCES BETWEEN CONFERENCE PROCEEDINGS AND BOOKS:
+                                  The ICAAAI-2025 conference proceedings differ from traditional books in format and purpose, including how information is shared among participants and the nature of content such as abstracts related to Artificial Intelligence.
+
+                                  The compilation of ICAAAI-2025 conference proceedings follows these guiding principles:
+
+                                  The proceedings are considered part of the scholarly academic record.
+
+                                  They are organized by the ICAAAI-2025 planning group and overseen by a program committee or designated editors.
+
+                                  Only thoroughly reviewed proceedings that have undergone screening and/or double-blind peer review are included.
+
+                                  Each submission is reviewed under double-blind peer review standards, with a strict plagiarism limit of 10%.</strong>
+								</p>
+							  </div>
+							</div>
+						  </section>
+
+	<!-- <section id="pricecard" class="border-0 bg-transparent pt-5"> 
+			  <div class="pricing-card-container">
+				<div class="pricing-card" style="margin-right:50px;">
+					<div class="title">Registration Fee</div>
+					<div class="price"> -->
+						<!-- <span class="currency">Rs.</span>1000/- -->
+					<!-- </div> 
+					
+					<button class="cta-button" onclick="openLink()">Register Now</button>
+				</div>
+				<div class="pricing-card" style="margin-left:50px">
+					<div class="title">Publication Fee</div>
+					<div class="price"> -->
+						<!-- <span class="currency">Rs.</span>8000/- -->
+					<!-- </div>
+					
+					<button class="cta-button" onclick="openLink()">Register Now</button>
+				</div>
+			</div>
+		</section> -->
+
+				<section id="speakers" class="border-0 bg-transparent py-5">
+					<div class="container py-3">
+						<div class="row">
+							<div class="col text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="100">
+								<h2></h2>
+								<h3> Our Chief Guests</h3>
+							</div>
+						</div>
+						<div class="row pt-4">
+							
+
+
+							<div class="col-sm-6 col-md-4 mb-4 text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="300">
+								<div class="hover-effect-3d">
+									<a href="#speaker-content-7" class="popup-with-zoom-anim">
+										<div class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded">
+											<div class="thumb-info-wrapper">
+												<img src="img/guest1.png" class="img-fluid mb-2" alt="guest1" />
+												<div class="thumb-info-action">
+													<div class="thumb-info-action-icon"><i class="fas fa-plus"></i></div>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<h4 class="text-color-dark font-weight-bold line-height-1 text-5 mt-3 mb-2">Dr. Hazlina Binti Hamdan
+								
+								</h4>
+								<p class="font-lato">HEAD OF AI RESEARCH GROUP,<BR>COMPUTER SCIENCE AND INFORMATION TECHNOLOGY, <br>UNIVERSITI PUTRA MALAYSIA</p>
+								
+								<h3 class="d-block text-color-default text-uppercase font-weight-bold line-height-1 positive-ls-2 text-2 mb-3"></h3>
+								
+                                 <style>
+                                    
+                                      .font-lato {
+                                        font-family: 'Lato', sans-serif;
+										line-height: 1.3;
+                                        }
+								 </style>
+								<!-- Speaker Lightbox 7 -->
+								<div id="speaker-content-7" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+									<div class="row">
+										<div class="col-lg-4 col-sm-4 text-center">
+											<img src="img/guest1.png" class="img-fluid mb-2" />
+											
+										</div>
+										<div class="col-lg-8 col-sm-8">
+											<h4 class="text-color-dark font-weight-bold line-height-1 text-5 mt-0 mb-2">Dr. Hazlina Binti Hamdan
+
+
+											</h4>
+											<h3 class="d-block text-color-default text-uppercase font-weight-bold line-height-1 positive-ls-2 text-2 mb-3"></h3>
+											<p>Dr. Hazlina Binti Hamdan, <br> Head of AI Research Group<BR>Faculty Of Computer Science & Information Technology,<br> Universiti Putra Malaysia</p>	
+												
+										</div>
+									</div>
+								</div>
+							</div>
+
+						
+
+							
+							
+
+
+							
+
+							<div class="col-sm-6 col-md-4 mb-4 text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="300">
+								<div class="hover-effect-3d">
+									<a href="#speaker-content-5" class="popup-with-zoom-anim">
+										<div class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded">
+											<div class="thumb-info-wrapper">
+												<img src="img/guest2.png" class="img-fluid mb-2" alt="guest2" />
+												<div class="thumb-info-action">
+													<div class="thumb-info-action-icon"><i class="fas fa-plus"></i></div>
+												</div>
+											</div> 
+										</div> 
+									
+									</a>
+								</div>
+								<h4 class="text-color-dark font-weight-bold line-height-1 text-5 mt-3 mb-2">Dr. Sriparna Saha
+									
+								</h4>
+								<P class="font-lato">ASSOCIATE PROFESSOR <BR> INDIAN INSTITUTE OF TECHNOLOGY<BR> PATNA, INDIA</P>
+								<h3 class="d-block text-color-default text-uppercase font-weight-bold line-height-1 positive-ls-2 text-2 mb-3"></h3>
+								
+
+								<!-- Speaker Lightbox 5 -->
+								<div id="speaker-content-5" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+									<div class="row">
+										<div class="col-lg-4 col-sm-4 text-center">
+											<img src="img/guest2.png" class="img-fluid mb-2" />
+											
+										</div>
+										<div class="col-lg-8 col-sm-8"><h4>Dr. Sriparna Saha
+
+
+											</h4>
+											<h3 class="d-block text-color-default text-uppercase font-weight-bold line-height-1 positive-ls-2 text-2 mb-3"></h3>
+											<p>Associate Professor <br> Indian Institute of Technology <br>Patna
+												
+									        </p>	
+												
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-md-4 mb-4 text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="300">
+								<div class="hover-effect-3d">
+									<a href="#speaker-content-4" class="popup-with-zoom-anim">
+										<div class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded">
+											<div class="thumb-info-wrapper">
+												<img src="img/cg/five.png" class="img-fluid mb-2" alt="" />
+												<div class="thumb-info-action">
+													<div class="thumb-info-action-icon"><i class="fas fa-plus"></i></div>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<h4 class="text-color-dark font-weight-bold line-height-1 text-5 mt-3 mb-2">Professor M.V.Panduranga Rao
+									
+								</h4>
+								<p class="font-lato">INDIAN INSTITUTE OF TECHNOLOGY <BR>HYDERABAD
+									KANDI-502284,<BR> SANGAREDDY 
+									TELANGANA, INDIA
+									</p>
+								<h3 class="d-block text-color-default text-uppercase font-weight-bold line-height-1 positive-ls-2 text-2 mb-3"></h3>
+							
+
+								<!-- Speaker Lightbox 4 -->
+								<div id="speaker-content-4" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+									<div class="row">
+										<div class="col-lg-4 col-sm-4 text-center">
+											<img src="img/cg/five.png" class="img-fluid mb-2" />
+											
+										</div>
+										<div class="col-lg-8 col-sm-8">
+											<h4 class="text-color-dark font-weight-bold line-height-1 text-5 mt-0 mb-2">Professor M.V.Panduranga Rao
+
+
+											</h4>
+											<h3 class="d-block text-color-default text-uppercase font-weight-bold line-height-1 positive-ls-2 text-2 mb-3"></h3>
+											<p>Professor <br> Indian Institute of Technology Hyderabad
+												Kandi-502284, Sangareddy
+												Telangana, India</p>	
+												
+										</div>
+									</div>
+								</div>
+							</section>
+                        
+							<style>
+								.py-5{
+									padding-bottom:none;
+									padding-top:none;
+								}
+							</style>
+							
+							<div class="container py-3">
+  <div class="row">
+    <div
+      class="col text-center appear-animation"
+      data-appear-animation="blurIn"
+      data-plugin-options="{'minWindowWidth': 0}"
+      data-appear-animation-delay="100"
+    >
+      <h2></h2>
+      <h3>Our Keynote Speakers</h3>
+    </div>
+  </div>
+
+  <!-- ✅ Centered Speaker Cards -->
+  <div class="row pt-4 justify-content-center">
+    <!-- Speaker 1 -->
+    <div
+      class="col-sm-6 col-md-4 mb-4 text-center appear-animation"
+      data-appear-animation="blurIn"
+      data-plugin-options="{'minWindowWidth': 0}"
+      data-appear-animation-delay="300"
+    >
+      <div class="hover-effect-3d">
+        <a href="#speaker-content-8" class="popup-with-zoom-anim">
+          <div class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded">
+            <div class="thumb-info-wrapper">
+              <img src="img/budaraju.png" class="img-fluid mb-2" alt="" />
+              <div class="thumb-info-action">
+                <div class="thumb-info-action-icon"><i class="fas fa-plus"></i></div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <h4 class="text-color-dark font-weight-bold line-height-1 text-5 mt-3 mb-2">
+        Mr. Budaraju Raja Rao
+      </h4>
+      <p class="font-lato">
+        INFORMATION TECHNOLOGY PROFESSIONAL<br />
+        SR. TECHNICAL STAFF<br />
+        ORACLE AMERICA INC, CA, USA
+      </p>
+
+      <!-- Lightbox Speaker 1 -->
+      <div id="speaker-content-8" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+        <div class="row">
+          <div class="col-lg-4 col-sm-4 text-center">
+            <img src="img/budaraju.png" class="img-fluid mb-2" />
+          </div>
+          <div class="col-lg-8 col-sm-8">
+            <h4 class="text-color-dark font-weight-bold line-height-1 text-5 mt-0 mb-2">
+              Mr. Budaraju Raja Rao
+            </h4>
+            <p>
+              Information Technology Professional,<br />
+              Sr. Technical Staff,<br />
+              Oracle America Inc, CA, USA
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Speaker 2 -->
+    <div
+      class="col-sm-6 col-md-4 mb-4 text-center appear-animation"
+      data-appear-animation="blurIn"
+      data-plugin-options="{'minWindowWidth': 0}"
+      data-appear-animation-delay="300"
+    >
+      <div class="hover-effect-3d">
+        <a href="#speaker-content-9" class="popup-with-zoom-anim">
+          <div class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded">
+            <div class="thumb-info-wrapper">
+              <img src="img/arab.jpeg" class="img-fluid mb-2" alt="" />
+              <div class="thumb-info-action">
+                <div class="thumb-info-action-icon"><i class="fas fa-plus"></i></div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <h4 class="text-color-dark font-weight-bold line-height-1 text-5 mt-3 mb-2">
+        Dr. Judhi Prasetyo FHEA MSc
+      </h4>
+      <p class="font-lato">
+        SENIOR LECTURER COMPUTER ENGINEERING AND INFORMATICS<br />
+        HEAD & FOUNDER, ROBOTECHEX LAB<br />
+        MIDDLESEX UNIVERSITY, DUBAI
+      </p>
+
+      <!-- Lightbox Speaker 2 -->
+      <div id="speaker-content-9" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
+        <div class="row">
+          <div class="col-lg-4 col-sm-4 text-center">
+            <img src="img/arab.jpeg" class="img-fluid mb-2" />
+          </div>
+          <div class="col-lg-8 col-sm-8">
+            <h4 class="text-color-dark font-weight-bold line-height-1 text-5 mt-0 mb-2">
+              Dr. Judhi Prasetyo FHEA MSc
+            </h4>
+            <p class="bio">
+  <span>Senior Lecturer Computer Engineering and Informatics</span>
+  <span>Head & Founder, RoboTechX Lab</span>
+  <span>Middlesex University, Dubai</span>
+</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+				</p>
+						
+							<!-- <img src="img/pic.png" class="img-fluid mb-2" style="width: 100%; height: 30%;" /> -->
+
+						<div class="border-0 bg-transparent py-5">	
+							<div class="row justify-content">
+								<div class="col text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="100">
+									
+								
+								</div>
+							</div>
+							<div class="button-container" style="padding-top:0px;">
+								<button class="button" onclick="toggleContent('AdvisoryCommittee')">Advisory Committee</button>
+
+								<button class="button" onclick="toggleContent('TechnicalProgramCommittee')">Technical Program Committee</button>
+								
+								<button class="button" onclick="toggleContent('EditorialBoardMembers')">Editorial Board Members</button>
+								
+							</div>
+							<div id="AdvisoryCommittee" class="content">
+								<h2>Advisory Committee</h2>
+								<ul>
+									<li>Dr. Hazlina Binti Hamdan, Head of AI Reseach Group,CSIT, Universiti Putra Malaysia</li>
+									<li>Prof. Dato Dr. Shamala Subrahmanyam, Universiti Putra Malaysia.</li>
+									<li>Dr. Mueen Uddin, Assoc. Professor, University of Doha for Science &Tech.</li>
+									<li>Dr. Diego Oliva, Assoc. Professor, Universidad de Guadalajara, Mexico.</li>
+									<li>Dr. Ahmed Elngar, Beni-Suef University, Egypt.</li>
+									<li>Dr. Xiao-Zhi Gao, University of Eastern Finland, Finland.</li>
+									<li>Dr. Michael Onyema Edeh, Coal City University, Nigeria.</li>
+									<li>Dr. Inam Ullah Khan, Founder AI-Explain You Science, UK.</li>
+									<li>Dr. D.V.L. Somayajulu, Director, IIITDM-Kurnool.</li>
+									<li>Dr. Dukkipati Ambedkar, Professor; IISc, Bangalore.</li>
+									<li>Dr. M.V.Pandu Ranga Rao, Professor, IIT, Hyderabad.</li>
+									<li>Dr. Manju Khari, Professor in CSE, JNU, Delhi.</li>
+									<li>Dr. M.H.M. Krishna Prasad, Professor in CSE, JNTUK.</li>
+									<li>Dr. A.S.N. Chakravarty, Professor in CSE, JNTUK.</li>
+									
+								</ul>
+							</div>
+
+							<div id="TechnicalProgramCommittee" class="content">
+								<h2>Technical Program Committee</h2>
+								<ul>
+									<li>Dr. Hazlina Binti Hamdan, Head of AI Research Group, UPM, Malesia.</li>
+									<li>Dr. Ozen Ozer, Professor, Kirklareli University, Turkey.</li>
+									<li>Dr. Ben Othman Soufiane, Prince Laboratory Research, University of 
+                                        Sousse, Tunisia. </li>
+									<li>Dr. Tien Anh Tran, Asst. Professor, Vietnam Maritime university, Vietnam. </li>
+									<li>Dr. Sumitra Srinivas K, MiddleSex University, Dubai. </li>
+									<li>Dr. Praneetha Sree, Assistant. Professor, IIIT, Kurnool. </li>
+									<li>Dr. K. Himabindu, Assistant Professor & Head in CSE, NIT-AP.</li>
+									<li>Dr. Nagesh Bhattu Sristy, Assistant Professor, NIT-AP. </li>
+									<li>Dr. P. S. V. S. Sai Prasad, Professor, University of Hyderabad. </li>
+									<li>Dr. N.S.S Ushadevi, Assistant Professor, CSE, JNTU, Kakinada. </li>
+									<li>Dr. Chandra Sekhar Voruganti, Lead Computer Vision Engineer.</li>
+									
+									
+								</ul>
+							</div>
+							
+							<div id="EditorialBoardMembers" class="content">
+								<h2>Editorial Board Members</h2>
+								<ul>
+									
+									<!-- <li>
+										
+                                         Dr. Zurina Mohd Hanapi, Associate Professor Head of the Department, University Putra Malesia..
+									</li> -->
+									<li>
+										Dr.R.N.V.Jagan Mohan
+										Associate Professor,
+										Dept of Computer Science and Engineering,
+										S.R.K.R. Engineering College, Bhimavaram-534204.
+									</li>
+									<li>
+										Dr.Bh.V.S.R.K.Raju 
+										Professor & Head Of The Department
+										Dept of Computer Science and Engineering,
+										S.R.K.R. Engineering College, Bhimavaram-534204.
+									</li>
+									<li>
+										Dr.G.N.V.G.Sirisha 
+										Associate Professor,
+										Dept of Computer Science and Engineering,
+										S.R.K.R. Engineering College, Bhimavaram-534204.
+									</li>
+									
+									<!-- <li>Dr.V. Chandra Sekhar
+										Professor & HoD,
+										Dept of Computer Science and Engineering,
+										S.R.K.R. Engineering College, Bhimavaram-534204.
+									</li>
+									
+									<li>Mr. Tangirala Venkata Purna Prasad
+										Assistant Professor,
+										Dept of Computer Science and Engineering,
+										S.R.K.R. Engineering College, Bhimavaram-534204.
+									</li> -->
+								
+								</ul>
+							</div>
+							
+                        </div>
+	
+				 
+				<section id="schedule" class="border-0 bg-transparent pt-4">
+					<div class="container p-5 " >
+						<div class="row justify-content" style="padding-bottom: 2px;">
+							<div class="col text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="100">
+								<h2>ICAAAI-2025</h2>
+								<h3>Schedule</h3>
+							</div>
+						</div>
+						<div class="row pt-4 justify-content-center">
+							<div class="col-xl-6">
+								<section class="timeline custom-timeline align-content-center" style="padding-bottom:30px;">
+									<div class="timeline-body">
+										<div class="appear-animation" data-appear-animation="fadeIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="0">
+											<div class="timeline-date bg-primary">
+												<h3 class="text-light font-weight-bold">Important Dates</h3>
+											</div>
+										</div>
+
+										<div class="appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="100">
+											<div class="timeline-box right">
+												<div class="timeline-box-time">
+													<strong class="text-dark">Sep 10</strong>
+												</div>
+												<div class="timeline-box-arrow"></div>
+												<div class="timeline-box-content clearfix">
+													<strong class="text-dark text-4">Full Paper Submission</strong>
+													<p class="m-0 opacity-8 text-2"></p>
+												</div>
+											</div>
+										</div>
+
+										<div class="appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="200">
+											<div class="timeline-box right">
+												<div class="timeline-box-time">
+													<strong class="text-dark">Oct 20</strong>
+												</div>
+												<div class="timeline-box-arrow"></div>
+												<div class="timeline-box-content clearfix">
+													<strong class="text-dark text-4">Notification of Acceptance</strong>
+													<p class="m-0 opacity-8 text-2"></p>
+												</div>
+											</div>
+										</div>
+
+										<div class="appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="300">
+											<div class="timeline-box right">
+												<div class="timeline-box-time">
+													<strong class="text-dark">Oct 30</strong>
+												</div>
+												<div class="timeline-box-arrow"></div>
+												<div class="timeline-box-content clearfix">
+													<strong class="text-dark text-4">Camera Ready Paper Submission</strong>
+													<p class="m-0 opacity-8 text-2"></p>
+												</div>
+											</div>
+										</div>
+
+										<div class="appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="400">
+											<div class="timeline-box right">
+												<div class="timeline-box-time">
+													<strong class="text-dark" style="margin-right:20px;">Dec <br>11,12,13</strong>
+												</div>
+												<div class="timeline-box-arrow"></div>
+												<div class="timeline-box-content clearfix">
+													<strong class="text-dark text-4">Conference</strong>
+													<p class="m-0 opacity-8 text-2"></p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>			
+				</section>
+
+                     
+
+<!-- Add this before your gallery section -->
+<!-- Add this before your gallery section -->
+<section class="border-0 bg-transparent pt-4" >
+    <div class="row justify-content" >
+        <div class="col text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="100" >
+            <button id="brochureBtn" class="btn btn-primary btn-lg">View Brochure</button>
+        </div>
+    </div>
+</section>
+
+
+
+   
+
+				
+
+
+				
+
+
+
+
+					<section id="gallery" class="py-5">
+					<div class="container">
+					  <h1 class="text-center font-weight-bold mb-2">ICAAAI 2024 GALLERY</h1>
+					  <!-- Beautiful Gallery Slider -->
+					  <div class="slider-container">
+						<button class="slider-btn" id="prevSlide">&#10094;</button>
+						<div class="slider" id="gallerySlider">
+						  <!-- Images will be dynamically loaded -->
+						</div>
+						<button class="slider-btn" id="nextSlide">&#10095;</button>
+					  </div>
+					</div>
+				  
+					<!-- Modal for Zoom -->
+					<div class="modal" id="imageModal" tabindex="-1" aria-hidden="true">
+					  <button id="closeModal">&times;</button>
+					  <button id="prevImage" class="nav-btn">&#10094;</button>
+					  <button id="nextImage" class="nav-btn">&#10095;</button>
+					  <img id="modalImage" alt="Zoomed Image">
+					</div>
+				  </section>
+				  
+				  <style>
+					/* Improved Styling for the Gallery Section */
+					.slider-container {
+					  position: relative;
+					  overflow: hidden;
+					  width: 1150px;
+					  height: 350px;
+					  margin: auto;
+					  border-radius: 10	px;
+					  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+					  background-color: #d7d7d7;
+					}
+				  
+					.slider {
+					  display: flex;
+					  transition: transform 0.5s ease-in-out;
+					  will-change: transform;
+					}
+				  
+					.slider img {
+					  width: 320px;
+					  height: 320px;
+					  object-fit: cover;
+					  margin: 15px 15px;
+					  border-radius: 10px;
+					  cursor: pointer;
+					  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+					  transition: transform 0.3s ease, box-shadow 0.3s ease;
+					}
+				  
+					.slider img:hover {
+					  transform: scale(1.05);
+					  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+					}
+				  
+					/* Slider Navigation Buttons */
+					.slider-btn {
+					  position: absolute;
+					  top: 50%;
+					  transform: translateY(-50%);
+					  background: rgba(49, 71, 58, 0.8);
+					  color: white;
+					  font-size: 30px;
+					  padding: 15px;
+					  border: none;
+					  border-radius: 50%;
+					  cursor: pointer;
+					  z-index: 1000;
+					}
+				  
+					#prevSlide {
+					  left: 20px;
+					}
+				  
+					#nextSlide {
+					  right: 20px;
+					}
+				  
+					.slider-btn:hover {
+					  background: rgba(49, 71, 58, 1);
+					}
+				  
+					/* Modal Styling */
+					#imageModal {
+					  display: none;
+					  position: fixed;
+					  top: 0;
+					  left: 0;
+					  width: 100%;
+					  height: 100%;
+					  background: rgba(246, 241, 241, 0.95);
+					  justify-content: center;
+					  align-items: center;
+					  z-index: 1050;
+					}
+				  
+					#imageModal.show {
+					  display: flex;
+					}
+				  
+					#imageModal img {
+					  max-width: 90%;
+					  max-height: 90%;
+					  border-radius: 15px;
+					  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+					}
+				  
+					/* Modal Close Button (X) */
+					#closeModal {
+					  position: absolute;
+					  top: 20px;
+					  right: 20px;
+					  background: rgba(49, 71, 58, 0.8);
+					  border: none;
+					  color: white;
+					  font-size: 32px;
+					  padding: 10px;
+					  border-radius: 50%;
+					  cursor: pointer;
+					  z-index: 1100;
+					}
+				  
+					#closeModal:hover {
+					  background: rgba(49, 71, 58, 1);
+					}
+				  
+					/* Navigation Buttons in Modal */
+					.nav-btn {
+					  position: absolute;
+					  top: 50%;
+					  transform: translateY(-50%);
+					  background: rgba(49, 71, 58, 0.8);
+					  border: none;
+					  color: white;
+					  font-size: 32px;
+					  padding: 15px 20px;
+					  cursor: pointer;
+					  z-index: 1100;
+					}
+				  
+					#prevImage {
+					  left: 20px;
+					}
+				  
+					#nextImage {
+					  right: 20px;
+					}
+				  
+					.nav-btn:hover {
+					  background: rgba(49, 71, 58, 1);
+					}
+				  
+					/* Hide Header When Modal is Open */
+					#header.hidden {
+					  display: none;
+					}
+				  </style>
+				  
+				  <script>
+					document.addEventListener("DOMContentLoaded", () => {
+ 				    const gallerySlider = document.getElementById("gallerySlider");
+  					const prevSlide = document.getElementById("prevSlide");
+					const nextSlide = document.getElementById("nextSlide");
+					const imageModal = document.getElementById("imageModal");
+					const modalImage = document.getElementById("modalImage");
+					const closeModal = document.getElementById("closeModal");
+					const nextImage = document.getElementById("nextImage");
+					const prevImage = document.getElementById("prevImage");
+					const header = document.getElementById("header");
+
+					let currentImageIndex = 0; // Current slider index
+					let currentModalIndex = 0; // Current modal index
+					const images = []; // Store image sources for modal navigation
+
+					// Load images dynamically
+					for (let i = 1; i <= 50; i++) {
+						const img = document.createElement("img");
+						img.src = `img/gallery/${i}.jpg`;
+						img.alt = `ICAAAI 2024 Gallery Image ${i}`;
+						img.dataset.index = i - 1;
+						images.push(img.src);
+
+						// Add click event to open modal
+						img.addEventListener("click", () => {
+						currentModalIndex = parseInt(img.dataset.index);
+						modalImage.src = img.src;
+						header.classList.add("hidden"); // Hide header
+						imageModal.classList.add("show");
+						});
+
+						gallerySlider.appendChild(img);
+					}
+
+					// Update Slider Position and Buttons
+					const slideWidth = 360; // Image width + margin
+					const updateSlider = () => {
+						gallerySlider.style.transform = `translateX(-${currentImageIndex * slideWidth}px)`;
+
+						// Disable buttons at boundaries
+						prevSlide.disabled = currentImageIndex === 0;
+						nextSlide.disabled = currentImageIndex === images.length - 1;
+					};
+
+					// Slider Navigation
+					nextSlide.addEventListener("click", () => {
+						if (currentImageIndex < images.length - 1) {
+						currentImageIndex++;
+						updateSlider();
+						}
+					});	
+
+					prevSlide.addEventListener("click", () => {
+						if (currentImageIndex > 0) {
+						currentImageIndex--;
+						updateSlider();
+						}
+   					});
+
+				// Loop Slider
+				nextSlide.addEventListener("click", () => {
+					if (currentImageIndex === images.length - 1) {
+					currentImageIndex = 0; // Reset to first image
+					updateSlider();
+					}
+				});
+
+				prevSlide.addEventListener("click", () => {
+					if (currentImageIndex === 0) {
+					currentImageIndex = images.length - 1; // Reset to last image
+					updateSlider();
+					}
+				});
+
+				// Close Modal
+				closeModal.addEventListener("click", () => {
+					imageModal.classList.remove("show");
+					header.classList.remove("hidden"); // Show header
+				});
+
+				// Modal Navigation
+				nextImage.addEventListener("click", () => {
+					currentModalIndex = (currentModalIndex + 1) % images.length; // Loop to start
+					modalImage.src = images[currentModalIndex];
+				});
+
+				prevImage.addEventListener("click", () => {
+					currentModalIndex = (currentModalIndex - 1 + images.length) % images.length; // Loop to end
+					modalImage.src = images[currentModalIndex];
+				});
+
+				// Initialize Slider
+				updateSlider();
+				});
+
+				  </script>
+				 <section id="press" class="py-5">
+					<div class="container">
+					  <h1 class="text-center font-weight-bold mb-2">ICAAAI 2024 PRESS</h1>
+					  <!-- Beautiful Gallery Slider -->
+					  <div class="slider-container">
+						<button class="slider-btn" id="preevSlide">&#10094;</button>
+						<div class="slider" id="pressSlider">
+						  <!-- Images will be dynamically loaded -->
+						</div>
+						<button class="slider-btn" id="neextSlide">&#10095;</button>
+					  </div>
+					</div>
+				  
+					<!-- Modal for Zoom -->
+					<div class="modal" id="imageModal" tabindex="-1" aria-hidden="true">
+					  <button id="closeModal">&times;</button>
+					  <button id="prevImage" class="nav-btn">&#10094;</button>
+					  <button id="nextImage" class="nav-btn">&#10095;</button>
+					  <img id="modalImage" alt="Zoomed Image">
+					</div>
+				  </section>
+				  
+				  <style>
+					/* Improved Styling for the Gallery Section */
+					.slider-container {
+					  position: relative;
+					  overflow: hidden;
+					  width: 1150px;
+					  height: 350px;
+					  margin: auto;
+					  border-radius: 10	px;
+					  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+					  background-color: #d7d7d7;
+					}
+				  
+					.slider {
+					  display: flex;
+					  transition: transform 0.5s ease-in-out;
+					  will-change: transform;
+					}
+				  
+					.slider img {
+					  width: 320px;
+					  height: 320px;
+					  object-fit: cover;
+					  margin: 15px 15px;
+					  border-radius: 10px;
+					  cursor: pointer;
+					  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+					  transition: transform 0.3s ease, box-shadow 0.3s ease;
+					}
+				  
+					.slider img:hover {
+					  transform: scale(1.05);
+					  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+					}
+				  
+					/* Slider Navigation Buttons */
+					.slider-btn {
+					  position: absolute;
+					  top: 50%;
+					  transform: translateY(-50%);
+					  background: rgba(49, 71, 58, 0.8);
+					  color: white;
+					  font-size: 30px;
+					  padding: 15px;
+					  border: none;
+					  border-radius: 50%;
+					  cursor: pointer;
+					  z-index: 1000;
+					}
+				  
+					#preevSlide {
+					  left: 20px;
+					}
+				  
+					#neextSlide {
+					  right: 20px;
+					}
+				  
+					.slider-btn:hover {
+					  background: rgba(49, 71, 58, 1);
+					}
+				  
+					/* Modal Styling */
+					#imageModal {
+					  display: none;
+					  position: fixed;
+					  top: 0;
+					  left: 0;
+					  width: 100%;
+					  height: 100%;
+					  background: rgba(246, 241, 241, 0.95);
+					  justify-content: center;
+					  align-items: center;
+					  z-index: 1050;
+					}
+				  
+					#imageModal.show {
+					  display: flex;
+					}
+				  
+					#imageModal img {
+					  max-width: 90%;
+					  max-height: 90%;
+					  border-radius: 15px;
+					  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+					}
+				  
+					/* Modal Close Button (X) */
+					#closeModal {
+					  position: absolute;
+					  top: 20px;
+					  right: 20px;
+					  background: rgba(49, 71, 58, 0.8);
+					  border: none;
+					  color: white;
+					  font-size: 32px;
+					  padding: 10px;
+					  border-radius: 50%;
+					  cursor: pointer;
+					  z-index: 1100;
+					}
+				  
+					#closeModal:hover {
+					  background: rgba(49, 71, 58, 1);
+					}
+				  
+					/* Navigation Buttons in Modal */
+					.nav-btn {
+					  position: absolute;
+					  top: 50%;
+					  transform: translateY(-50%);
+					  background: rgba(49, 71, 58, 0.8);
+					  border: none;
+					  color: white;
+					  font-size: 32px;
+					  padding: 15px 20px;
+					  cursor: pointer;
+					  z-index: 1100;
+					}
+				  
+					#prevImage {
+					  left: 20px;
+					}
+				  
+					#nextImage {
+					  right: 20px;
+					}
+				  
+					.nav-btn:hover {
+					  background: rgba(49, 71, 58, 1);
+					}
+				  
+					/* Hide Header When Modal is Open */
+					#header.hidden {
+					  display: none;
+					}
+				  </style>
+				  
+				  <script>
+					document.addEventListener("DOMContentLoaded", () => {
+					 const pressSlider = document.getElementById("pressSlider");
+					 const preevSlide = document.getElementById("preevSlide");
+					const neextSlide = document.getElementById("neextSlide");
+					const imageModal = document.getElementById("imageModal");
+					const modalImage = document.getElementById("modalImage");
+					const closeModal = document.getElementById("closeModal");
+					const nextImage = document.getElementById("nextImage");
+					const prevImage = document.getElementById("prevImage");
+					const header = document.getElementById("header");
+
+					let currentImageIndex = 0; // Current slider index
+					let currentModalIndex = 0; // Current modal index
+					const images = []; // Store image sources for modal navigation
+
+					// Load images dynamically
+					for (let i = 1; i <= 6; i++) {
+						const img = document.createElement("img");
+						img.src = `img/press/${i}.jpg`;
+						img.alt = `ICAAAI 2024 PRESS Image ${i}`;
+						img.dataset.index = i - 1;
+						images.push(img.src);
+
+						// Add click event to open modal
+						img.addEventListener("click", () => {
+						currentModalIndex = parseInt(img.dataset.index);
+						modalImage.src = img.src;
+						header.classList.add("hidden"); // Hide header
+						imageModal.classList.add("show");
+						});
+
+						pressSlider.appendChild(img);
+					}
+
+					// Update Slider Position and Buttons
+					const slideWidth = 360; // Image width + margin
+					const updateSlider = () => {
+						pressSlider.style.transform = `translateX(-${currentImageIndex * slideWidth}px)`;
+
+						// Disable buttons at boundaries
+						preevSlide.disabled = currentImageIndex === 0;
+						neextSlide.disabled = currentImageIndex === images.length - 1;
+					};
+
+					// Slider Navigation
+					neextSlide.addEventListener("click", () => {
+						if (currentImageIndex < images.length - 1) {
+						currentImageIndex++;
+						updateSlider();
+						}
+					});	
+
+					preevSlide.addEventListener("click", () => {
+						if (currentImageIndex > 0) {
+						currentImageIndex--;
+						updateSlider();
+						}
+   					});
+
+				// Loop Slider
+				neextSlide.addEventListener("click", () => {
+					if (currentImageIndex === images.length - 1) {
+					currentImageIndex = 0; // Reset to first image
+					updateSlider();
+					}
+				});
+
+				preevSlide.addEventListener("click", () => {
+					if (currentImageIndex === 0) {
+					currentImageIndex = images.length - 1; // Reset to last image
+					updateSlider();
+					}
+				});
+
+				// Close Modal
+				closeModal.addEventListener("click", () => {
+					imageModal.classList.remove("show");
+					header.classList.remove("hidden"); // Show header
+				});
+
+				// Modal Navigation
+				nextImage.addEventListener("click", () => {
+					currentModalIndex = (currentModalIndex + 1) % images.length; // Loop to start
+					modalImage.src = images[currentModalIndex];
+				});
+
+				prevImage.addEventListener("click", () => {
+					currentModalIndex = (currentModalIndex - 1 + images.length) % images.length; // Loop to end
+					modalImage.src = images[currentModalIndex];
+				});
+
+				// Initialize Slider
+				updateSlider();
+				});
+
+				  </script>
+
+            
+
+                <!-- <section id="sponsors" class="border-0 bg-tertiary py-5">
+					<div class="container py-3">
+						<div class="row">
+							<div class="col text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="100">
+								<h2>Thanks To Our Sponsors</h2>
+								<h3>Sponsors</h3>
+								<section id="publish">
+							
+							</div>
+						</div>
+						<div class="row align-items-center text-center my-3 py-5 appear-animation" data-appear-animation="fadeIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="600">
+							<div class="col-12">
+							  <img src="img/taylor_and_francis.png" alt class="img-fluid" style="max-width: 200px; float: left; margin-left:100px;" />
+							  <img src="img/qrss.jpg" alt class="img-fluid" style="max-width: 200px; float: center; margin-right:50px;" />
+
+							  <div style="float: right; text-align: center; margin-right: 80px;">
+								<img src="img/skao.jpg" alt class="img-fluid" style="max-width: 150px;" />
+								<p style="margin-top: 10px;">Sree Kumar Agro Oils<br>
+									Pvt. Ltd. Jakkaram
+									</p>
+							  </div>
+							  </div>
+						  </div>
+						  
+					</div>
+				</section>  -->
+
+				<!-- <section class="section section-height-4 mt-0 mb-3 border-0">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-lg-10" >
+								<div class="owl-carousel owl-theme stage-margin stage-margin-lg nav-style-2 mb-0" data-plugin-options="{'items': 1, 'margin': 100, 'loop': false, 'nav': true, 'dots': false, 'stagePadding': 100}" >
+				
+									<div style="font-size: 1.2rem; line-height: 1.6; text-align: justify;">
+										<span class="text-color-primary" style="font-size: 1.4rem; font-weight: bold; display: block; margin-bottom: 0.5rem;">
+										  Call For Papers
+										</span>
+										<strong>
+										  The 2nd International Conference on Algorithms in Advanced Artificial Intelligence (ICAAAI-2025) focuses on Generative AI and Explainable AI, two distinct areas of AI with unique objectives and challenges. The ICAAAI-2025 research explores generative AI algorithms in computer vision in ICT, focusing on machine learning and deep learning procedures for data-driven decision-making. Generative AI uses advanced models for content generation, while explainable AI provides insights into AI system decision-making processes. Generative AI transforms machine learning inputs into content, while explainable AI uses techniques to predict future outcomes. Computer vision and generative AI are rapidly changing operations, with future developments enabling more realistic content and accurate interpretation of visual input. ICAAAI-2025 discovers generative AI algorithms in computer vision, focusing on machine learning and deep learning for data-driven decision-making. Generative AI uses advanced models like VAE, GANs, and transformers for content creation, while Explainable AI provides insights into AI system decision-making processes.
+										</strong>
+									  </div>
+
+									  <div style="font-size: 1.2rem; line-height: 1.6; text-align: justify;">
+										<span class="text-color-primary" style="font-size: 1.4rem; font-weight: bold; display: block; margin-bottom: 0.5rem;">
+											About Guidelines
+										</span>
+										<strong>
+											International Conference on Algorithms in Advanced Artificial Intelligence (ICAAAI-2025) invites researchers, academicians, professionals, practitioners, and students to impart and share their knowledge in the form of high-quality original research papers proposing novel solutions and case studies addressing the current real-life problems.
+										</strong>
+									  </div>
+
+									  <div style="font-size: 1.2rem; line-height: 1.6; text-align: justify;">
+										<span class="text-color-primary" style="font-size: 1.4rem; font-weight: bold; display: block; margin-bottom: 0.5rem;">
+											Paper Submission
+										</span>
+										<strong>
+											Papers with significant contributions that have not been published before or are being considered for publication elsewhere are being sought for ICAAAI-2024. Submission procedures for ICAAAI-2024 conference participants of papers will be submitted through Taylor and Francis to Scopus, whose indexing is fully dependent on the quality of the papers as determined by double-blind peer review.
+										</strong>
+										<p>Registration Link: <a href="https://bit.ly/ICAAAI-2024">Click here to register</a></p>
+									  </div>
+									  
+				
+				
+									
+				
+								</div>
+							</div>
+						</div>
+					</div>
+				</section> -->
+				
+						
+
+				
+				
+
+				<!-- <section class="gallery">
+					<h2>Photo Gallery (ICAAAI - 2023)</h2>
+					<div class="gallery-container">
+						<div class="gallery-item"><img src="img/gallery/1.jpg" alt="Image 1"></div>
+						<div class="gallery-item"><img src="img/gallery/2.jpg" alt="Image 2"></div>
+						<div class="gallery-item"><img src="img/gallery/4.jpg" alt="Image 3"></div>
+						<div class="gallery-item"><img src="img/gallery/3.jpg" alt="Image 1"></div>
+						<div class="gallery-item"><img src="img/gallery/5.jpg" alt="Image 5"></div>
+						<div class="gallery-item"><img src="img/gallery/6.jpg" alt="Image 6"></div>
+						<div class="gallery-item"><img src="img/gallery/7.jpg" alt="Image 7"></div>
+						<div class="gallery-item"><img src="img/gallery/8.jpg" alt="Image 8"></div>
+						<div class="gallery-item"><img src="img/gallery/9.jpg" alt="Image 9"></div>
+						<div class="gallery-item"><img src="img/gallery/10.jpg" alt="Image 10"></div>
+						<div class="gallery-item"><img src="img/gallery/11.jpg" alt="Image 11"></div>
+						<div class="gallery-item"><img src="img/gallery/12.jpg" alt="Image 12"></div>
+						<div class="gallery-item"><img src="img/gallery/13.jpg" alt="Image 13"></div>
+						<div class="gallery-item"><img src="img/gallery/14.jpg" alt="Image 14"></div>
+						<div class="gallery-item"><img src="img/gallery/15.jpg" alt="Image 15"></div>
+						<div class="gallery-item"><img src="img/gallery/16.jpg" alt="Image 15"></div>
+						<div class="gallery-item"><img src="img/gallery/17.jpg" alt="Image 15"></div>
+						<div class="gallery-item"><img src="img/gallery/18.jpg" alt="Image 15"></div>
+						<div class="gallery-item"><img src="img/gallery/19.jpg" alt="Image 15"></div>
+						<div class="gallery-item"><img src="img/gallery/20.jpg" alt="Image 15"></div>
+						<div class="gallery-item"><img src="img/gallery/21.jpg" alt="Image 15"></div>
+						<div class="gallery-item"><img src="img/gallery/22.jpg" alt="Image 15"></div>
+						<div class="gallery-item"><img src="img/gallery/23.jpg" alt="Image 15"></div>
+						<div class="gallery-item"><img src="img/gallery/24.jpg" alt="Image 15"></div>
+						
+						
+					</div>
+				</section> -->
+
+				
+
+	<!-- <section id="book" class="border-0 bg-transparent pt-5">
+        <div class="container py-3">
+            <div class="row mb-3">
+                <div class="col text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="100">
+                    <h2>Proceedings Book from Taylor and Francis</h2>
+                    
+                </div>
+            </div>
+            <div class="row mt-5 justify-content-center">
+                <div class="col-9 text-center custom-venue-info">
+                    <div class="row align-items-center m-0 p-0">
+                        <div class="d-none d-lg-flex col-lg-5 p-0 m-0">
+                            <img src="img/book.png" class="img-fluid" alt="Venue Image">
+                        </div>
+                        <div class="col-lg-7 p-lg-0 m-0">
+                            <strong class="text-dark text-5 mb-3 pt-5 pt-lg-0 d-block">Algorithms in Advanced Artificial Intelligence
+								ICAAAI-2023</strong>
+                            <p class="m-0 opacity-8 text-3">Edited By R. N. V. Jagan Mohan, Vasamsetty Chandra Sekhar, V. M. N. S. S. V. K. R. Gupta<br>Copyright 2025<br>Available in Amazon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>                        
+        </div>
+    </section> -->
+
+	<section id="" class="border-0 bg-transparent pt-4">
+					<div class="row justify-content">
+						<div class="col text-center appear-animation" data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="100">
+							<h3>ICAAAI-2024</h3>
+						</div>
+					</div>
+					<div class="center-container">
+						<button class="review-button" onclick="window.open('https://srkrec.edu.in/ICAAAI-2024/', '_blank')">View Website</button>
+					</div>
+				</section>
+
+	<section id="venue"	>
+
+		<header class="row mt-5 justify-content-center">
+			<div class="col-9 text-center custom-venue-info">
+				<div class="row align-items-center m-0 p-0">
+					<div class="d-none d-lg-flex col-lg-5 p-0 m-0">
+						<img src="img/venue.png" class="img-fluid" alt="Venue Logo">
+					</div>
+					<div class="col-lg-7 p-lg-0 m-0">
+						<strong class="text-dark text-5 mb-3 pt-5 pt-lg-0 d-block">
+							Sagi Rama Krishnam Raju (SRKR) Engineering College (Autonomous)
+						</strong>
+						<p class="m-0 opacity-8 text-3">
+							Department of CSE <br>
+							SRKR Marg, China Amiram, <br>
+							Bhimavaram, A.P, India - 534204 <br>
+							Mobile: +91 7981349543 <br>
+							Email: icaai@srkrec.edu.in
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</section>		
+	
+	<section id ="venue">
+		<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
+		<div class="appear-animation" data-appear-animation="fadeIn" data-plugin-options="{'minWindowWidth': 0}" data-appear-animation-delay="0">
+			<div id="googlemaps" class="google-map m-0" style="height: 400px;">
+				<img src="https://www.google.com/maps/@16.5432° N,81.4964° E,11z?entry=ttu" target="_blank">
+
+			</div>
+		</div>
+
+	</section>
+					
+				
+
+
+			</div>
+		</head>
+		<!-- PDF Viewer Modal -->
+<!-- Moving PDF Viewer Modal - Clean Version -->
+<div id="movingpdfModal" class="movingpdf-modal">
+    <div class="movingpdf-modal-backdrop"></div>
+    <div class="movingpdf-modal-content">
+        <button class="movingpdf-modal-close" id="movingpdfModalClose">&times;</button>
+        <div class="movingpdf-viewer-container">
+            <!-- Use either embed or iframe, not both -->
+            <embed id="movingpdfEmbed" type="application/pdf" width="100%" height="100%">
+            <!-- OR -->
+            <iframe id="movingpdfViewer" class="movingpdf-modal-iframe"></iframe>
+        </div>
+    </div>
+</div>
+<!--  PDF Viewer Modal - Clean Version -->
+
+<div id="pdfModal" class="pdf-modal">
+    <div class="pdf-modal-backdrop"></div>
+    <div class="pdf-modal-content">
+        <button class="pdf-modal-close" id="pdfModalClose">&times;</button>
+        <div class="pdf-viewer-container">
+            <!-- Use either embed or iframe, not both -->
+            <embed id="pdfEmbed" type="application/pdf" width="100%" height="100%">
+            <!-- OR -->
+            <iframe id="pdfViewer" class="pdf-modal-iframe"></iframe>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+		</body>
+		</html></header>
+			
+		
+			  
+		<footer id="footer" class="text-color-light">
+			<!-- Full-width Background for Top Section -->
+			 <section id="contact">
+			
+		
+			<div class="bg-secondary py-5">
+			  <div class="container">
+				<div class="row gy-4">
+				  <!-- Logo and Event Details Section -->
+				  <div class="col-lg-6 d-flex flex-column align-items-end text-end">
+					<a href="index.html" class="text-decoration-none mb-3">
+					  <img src="img/srkr.png" width="100%" height="68" class="img-fluid" alt="SRKR Engineering College Logo" />
+					</a>
+					<h4 class="font-weight-bold mb-2">ICAAAI - Dec 11 - 13, 2025 | SRKR</h4>
+					<strong class="d-block font-weight-semibold text-3">
+					  SRKR Engineering College - CSE Department
+					</strong>
+				  </div>
+		  
+				  <!-- Contact Information Section -->
+				  <div class="col-lg-6 d-flex align-items-center">
+					<div>
+					  <h4 class="font-weight-bold mb-3">Contact Us</h4>
+					  <p class="text-2 mb-0">
+						<strong>Email:</strong>
+						<a href="mailto:icaai@srkrec.edu.in" class="text-color-light text-decoration-underline">
+						  icaai@srkrec.edu.in
+						</a><br>
+						<strong>Phone:</strong>
+						<a href="tel:+917981349543" class="text-color-light text-decoration-underline">
+						  +91 7981349543
+						</a><br>
+						<strong>Address:</strong><br>
+						Dr. R.N.V. Jagan Mohan, Convener, ICAAAI-2025<br>
+						Department of Computer Science and Engineering,<br>
+						S.R.K.R Engineering College, Bhimavaram 534204
+					  </p>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  
+			<!-- Bottom Footer Section -->
+			<div class="bg-secondary">
+			  <div class="container">
+				<div class="row">
+				  <div class="col text-center py-3">
+					<p class="text-color-light mb-0 text-2">
+					  © 2025 ICAAAI. Designed by SRKR CSE 
+				      <p id="click-text" style="cursor:pointer;">WEBTEAM</p>
+					</p>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			<div id="modal-bg" class="hidden">
+  <div id="modal-box">
+	<div id="modal-content">
+    <span id="close-modal">&times;</span>
+    <!-- Your box content here -->
+    <h1>Our Team</h1>
+	<div id="faculty-text">
+		<h2>Faculty</h2>
+		<div id="faculty-photo">
+			<img class="faculty-pic" src="img/pavansir.jpg" alt="photo">
+		</div>
+		<div id="faculty-details">
+			<p class="name">Dr.K D V Pavan Kumar Varma</p>
+			<p class="designation">Assitant Professor,</p>
+			<p class="designation">Dept of Computer Science & Engineering</p>
+			<p class="designation">SRKREC Bhimavaram</p>
+			<p class="designation">Email : <a href="mailto:kdvpvarma@gmail.com" style="color:green">kdvpvarma@gmail.com</a></p>
+            <p class="designation">Profile : <a href="profile.pdf" style="color:green" target="_blank">k d v pawan varma</a></p>
+			<p class="designation">Mobile No : 9959622225</p>
+			<div class="icons">
+				<!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/pavan-varma-kothapalli-4577b949/" target="_blank">
+                <i class="fab fa-linkedin fa-2x" style="color: #0077b5;"></i>
+                </a>
+
+                <!-- GitHub -->
+                <a href="https://github.com/pavanvarmakothapalli" target="_blank">
+                <i class="fab fa-github fa-2x" style="color: #333;"></i>
+                </a>
+
+
+			</div>
+		</div>
+	</div>
+	<div id="students-text">
+		<h2>Students</h2>
+		<div class="student-details-1">
+			<div class="row-one"></div>
+			<div class="row-one"></div>
+			<div class="row-one"></div>
+		</div>
+		<div class="student-details-2">
+			<div class="row-two"></div>
+			<div class="row-two"> 
+				<!-- <img src="img/chaithanya.jpg" alt="photo" class="students-vivaralu">
+				<p class="posts">Chaitanya</p>
+				<p class="post-details">Front-End Developer</p>
+			    <div class="student-profiles"> -->
+					<!-- LinkedIn -->
+<!-- <a href="https://www.linkedin.com/in/your-profile" target="_blank">
+  <i class="fab fa-linkedin fa-2x" style="color: #0077b5;"></i>
+</a> -->
+
+<!-- GitHub -->
+<!-- <a href="https://github.com/your-username" target="_blank">
+  <i class="fab fa-github fa-2x" style="color: #333;"></i>
+</a> -->
+
+<!-- Email -->
+<!-- <a href="mailto:your.email@example.com">
+  <i class="fas fa-envelope fa-2x" style="color: #d44638;"></i>
+</a> -->
+
+				<!-- </div> -->
+			</div>
+			<div class="row-two"></div>
+		</div>
+		
+
+	</div>
+	</div>
+  </div>
+</div>
+
+<style>
+	/* Hide modal background by default */
+.student-profiles{
+	margin-top:27px;
+	display:flex;
+	justify-content:start;
+	gap:20px;
+	cursor: pointer;
+	padding-left:60px;
+}
+.post-details{
+	font-size: 20px;
+	margin-left:28px;
+	margin-top:5px;
+	line-height:1.2px
+}
+.row-two .posts{
+	font-size:20px;
+	margin-top:8px;
+	margin-left:65px;
+	color:black;
+	font-weight: bold;
+}
+.row-two .students-vivaralu{
+	height:250px;
+	width:240px;
+	border-radius: 10px;
+	object-fit: cover;
+	margin-left:2px;
+	margin-top:2px;
+
+}
+.icons{
+	margin-left:30px;
+	display:flex;
+	justify-content:start;
+	gap:20px;
+	cursor: pointer;
+	padding-left:5px;
+}
+#faculty-details .designation{
+	margin-left:30px;
+	font-size: 15px;
+	line-height:3px;
+}
+#faculty-details .name{
+	margin-top:15px;
+	margin-left:30px;
+	font-weight: bolder;
+	font-size: 24px;
+	color:black;
+}
+.faculty-pic{
+	height: 250px;
+	width: 210px;
+	border-radius:12px;
+	object-fit: cover;
+}
+.student-details-2{
+	margin-top: 50px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left:100px;
+	padding-right:100px;
+
+}
+.row-two{
+	height:380px;
+	width:245px;
+	border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+.student-details-1{
+	margin-top: 30px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left:100px;
+	padding-right:100px;
+
+}
+.row-one{
+	height:380px;
+	width:245px;
+	border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+	
+
+}
+#students-text{
+	width: 1127px;
+	border: 1px solid lightgray;
+	padding:5px;
+	border-radius: 8px;
+	box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+	margin-left:35px;
+	
+	margin-top: 20px;
+	margin-right:35px;
+	margin-bottom: 10px;
+
+}
+#modal-box {
+  max-height: 85vh;
+  overflow-y: auto;
+  overflow:hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+}
+#faculty-text, #students-text {
+  max-width: 100%;
+  
+  box-sizing: border-box;
+}
+#students-text{
+	height: 910px;      
+  flex-shrink: 0;
+}
+
+#faculty-text{
+  height: 330px;      
+  flex-shrink: 0;     
+}
+
+#faculty-photo{
+	height: 250px;
+	width: 210px;
+	box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+	margin-left:40px;
+	margin-top:35px;
+	border-radius:12px;
+
+}
+#faculty-details{
+	height:250px;
+	width: 450px;
+	
+	margin-top: 35px;
+	border-radius: 8px;
+	margin-left: 30px;
+}
+#faculty-text{
+	width: 770px;
+	border: 1px solid lightgray;
+	padding:5px;
+	border-radius: 10px;
+	box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+	margin-left:190px;
+	display: flex;
+}
+#students-text h2{
+	color:black;
+	margin-left:10px;
+	margin-top:8px;
+}
+#faculty-text h2{
+	color:black;
+	margin-left:10px;
+	margin-top:8px;
+}
+#modal-content {
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;      
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+#modal-content h1{
+	text-align: center;
+	margin-top:15px;
+}
+.hidden {
+  display: none !important;
+}
+#modal-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* The semi-transparent blurred overlay */
+#modal-bg::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.2);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  z-index: 1;
+}
+/* The modal box */
+#modal-box {
+  width: 90vw;
+  max-width: 1200px;
+  max-height: 85vh;
+  overflow-y: auto;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+#modal-box h1{
+	color: black;
+	font-weight: bold;
+}
+
+
+#close-modal {
+  position: absolute;
+  top: 8px; right: 8px;
+  font-size: 24px;
+  cursor: pointer;
+  background-color:none;
+  border-radius: 50%;
+  border:1px solid lightgray;
+  height:30px;
+  width:30px;
+  text-align: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-right:10px;
+
+  
+}
+#close-modal:hover{
+	background-color:rgb(248, 43, 43);
+}
+</style>
+
+
+
+
+
+			 </section>
+		  </footer>
+		  
+
+			  
+		<!-- Vendor -->
+		<script src="vendor/plugins/js/plugins.min.js"></script>
+
+		<!-- Theme Base, Components and Settings -->
+		<script src="js/theme.js"></script>
+
+		<!-- Revolution Slider Scripts -->
+		<script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+		<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+		<!-- Current Page Vendor and Views -->
+		<script src="js/views/view.contact.js"></script>
+
+		<!-- Demo -->
+		<script src="js/demos/demo-event.js"></script>
+
+		<!-- Theme Custom -->
+		<script src="js/custom.js"></script>
+
+		<!-- Theme Initialization Files -->
+		<script src="js/js.js"></script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAea24UwU5sUreEizrJiCfzcUfsls9NZ_8" ></script> 
+	<script>
+
+			
+		// Map Settings
+
+			// //Find the Latitude and Longitude of your address:
+			// 	- https:www.latlong.net/
+			// 	- http:www.findlatitudeandlongitude.com/find-address-from-latitude-and-longitude/
+
+		
+	const clickText = document.getElementById('click-text');
+const modalBg = document.getElementById('modal-bg');
+const closeModal = document.getElementById('close-modal');
+
+clickText.onclick = function() {
+  modalBg.classList.remove('hidden');
+};
+closeModal.onclick = function() {
+  modalBg.classList.add('hidden');
+};
+
+
+		function initializeGoogleMaps() {
+			// Map Markers
+			var mapMarkers = [{
+				address: "srkr,cse department",
+				icon: {
+					image: "",
+					iconsize: [31, 40],
+					iconanchor: [31, 40]
+				}
+			}];
+
+			// Map Initial Location
+			var initLatitude = 16.5431521;
+			var initLongitude = 81.4938113;
+
+			// Map Extended Settings
+			var mapSettings = {
+				controls: {
+					draggable: false,
+					panControl: false,
+					zoomControl: false,
+					mapTypeControl: false,
+					scaleControl: false,
+					streetViewControl: false,
+					overviewMapControl: false
+				},
+				scrollwheel: false,
+				markers: mapMarkers,
+				latitude: initLatitude,
+				longitude: initLongitude,
+				zoom: 14
+			};
+
+			var map = $('#googlemaps').gMap(mapSettings),
+				mapRef = $('#googlemaps').data('gMap.reference');
+
+			// Styles from https://snazzymaps.com/
+			
+			mapRef.mapTypes.set('map_style', styledMap);
+			mapRef.setMapTypeId('map_style');
+		}
+
+		// Initialize Google Maps when element enter on browser view
+		theme.fn.intObs( '.google-map', 'initializeGoogleMaps()', {} );
+
+		// Map text-center At
+		var mapCenterAt = function(options, e) {
+			e.preventDefault();
+			$('#googlemaps').gMap("centerAt", options);
+		}
+
+		
+		// JavaScript to handle button click events
+		function toggleContent(id) {
+		const selectedContent = document.getElementById(id);
+
+		// Hide all content divs except the selected one
+		const allContents = document.querySelectorAll('.content');
+		allContents.forEach(content => {
+			if (content.id !== id) {
+				content.style.display = 'none';
+			}
+		});
+
+		// Toggle the display of the selected content div
+		if (selectedContent.style.display === 'block') {
+			selectedContent.style.display = 'none';
+		} else {
+			selectedContent.style.display = 'block';
+		}
+	}
+
+	function openLink() {
+		window.location.href = 'https://bit.ly/ICAAAI-2024';
+	}
+
+ 
+   // Brochure PDF Viewer
+// Clean PDF Viewer
+document.addEventListener('DOMContentLoaded', function() {
+    const brochureBtn = document.getElementById('brochureBtn');
+    const pdfModal = document.getElementById('pdfModal');
+    const pdfModalClose = document.getElementById('pdfModalClose');
+    const pdfViewerContainer = document.querySelector('.pdf-viewer-container');
+    
+    // Store the original PDF source
+    const pdfSource = 'Broucher.pdf#toolbar=0&navpanes=0&scrollbar=0&statusbar=0&view=FitH';
+    
+    function createNewViewer() {
+        // Clear container
+        pdfViewerContainer.innerHTML = '';
+        
+        // Create new iframe
+        const iframe = document.createElement('iframe');
+        iframe.id = 'pdfViewer';
+        iframe.className = 'pdf-modal-iframe';
+        pdfViewerContainer.appendChild(iframe);
+        
+        return iframe;
+    }
+    
+    let currentViewer = createNewViewer();
+    
+    brochureBtn.addEventListener('click', function() {
+        // Create new viewer if needed
+        if (!document.getElementById('pdfViewer')) {
+            currentViewer = createNewViewer();
+        }
+        
+        // Create a new timestamp to force reload
+        const timestamp = new Date().getTime();
+        const url = pdfSource + '&t=' + timestamp;
+        
+        // Set the source
+        currentViewer.src = url;
+        
+        // Show modal
+        pdfModal.style.display = 'block';
+        document.body.style.overflow = 'hidden';
+    });
+    
+    function closeModal() {
+        pdfModal.style.display = 'none';
+        document.body.style.overflow = '';
+        
+        // Don't destroy the viewer, just remove the source
+        if (currentViewer) {
+            currentViewer.src = '';
+        }
+    }
+    
+    pdfModalClose.addEventListener('click', closeModal);
+    
+    // Close when clicking backdrop
+    document.querySelector('.pdf-modal-backdrop').addEventListener('click', closeModal);
+    
+    // Close with ESC key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            closeModal();
+        }
+    });
+});
+		
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const movingbrochureBtn = document.getElementById('movingbrochureBtn');
+    const movingpdfModal = document.getElementById('movingpdfModal');
+    const movingpdfModalClose = document.getElementById('movingpdfModalClose');
+    const movingpdfViewerContainer = document.querySelector('.movingpdf-viewer-container');
+    
+    // Store the original PDF source
+    const movingpdfSource = 'Broucher.pdf#toolbar=0&navpanes=0&scrollbar=0&statusbar=0&view=FitH';
+    
+    function movingcreateNewViewer() {
+        // Clear container
+        movingpdfViewerContainer.innerHTML = '';
+        
+        // Create new iframe
+        const movingiframe = document.createElement('iframe');
+        movingiframe.id = 'pdfViewer';
+        movingiframe.className = 'pdf-modal-iframe';
+        movingpdfViewerContainer.appendChild(movingiframe);
+        
+        return movingiframe;
+    }
+    
+    let movingcurrentViewer = movingcreateNewViewer();
+    
+    movingbrochureBtn.addEventListener('click', function() {
+        // Create new viewer if needed
+        if (!document.getElementById('movingpdfViewer')) {
+            movingcurrentViewer = movingcreateNewViewer();
+        }
+        
+        // Create a new timestamp to force reload
+        const movingtimestamp = new Date().getTime();
+        const movingurl = movingpdfSource + '&t=' + movingtimestamp;
+        
+        // Set the source
+        movingcurrentViewer.src = movingurl;
+        
+        // Show modal
+        movingpdfModal.style.display = 'block';
+        document.body.style.overflow = 'hidden';
+    });
+    
+    function movingcloseModal() {
+        movingpdfModal.style.display = 'none';
+        document.body.style.overflow = '';
+        
+        // Don't destroy the viewer, just remove the source
+        if (movingcurrentViewer) {
+            movingcurrentViewer.src = '';
+        }
+    }
+    
+    movingpdfModalClose.addEventListener('click', movingcloseModal);
+    
+    // Close when clicking backdrop
+    document.querySelector('.movingpdf-modal-backdrop').addEventListener('click', movingcloseModal);
+    
+    // Close with ESC key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            movingcloseModal();
+        }
+    });
+});
+
+	</script>
+	
+
+</html>	
+	
+
+
