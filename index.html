@@ -55,6 +55,10 @@
 
 		<!-- Theme Custom CSS -->
 		<link rel="stylesheet" href="css/custom.css">
+		<!-- loadin images -->
+		 <link rel="preload" as="image" href="img/backgroundimg.jpg">
+         <link rel="preload" as="image" href="img/sample.jpg">
+
         
 
 		
@@ -820,46 +824,43 @@ body {
    
 	#content {
   display: flex;
-  justify-content: center;   /* horizontal center */
+  justify-content: space-between;   /* horizontal center */
   align-items: center;       /* vertical center */
   height: 100vh;             /* make container full viewport height */
   position: relative;
 }
 
-.imageadjust {
-  position: absolute;
-  top: 220px;
-  right: 20px;
-  margin-right:1010px;
-  height:200px;
-  width:200px;
-  
+/* Flexbox container for logos + center text */
+
+
+/* Logo size (both logos use this) */
+.logo-img {
+  height: 200px;
+  width: 200px;
 }
 
+/* Center text style */
 .text-center-box h1 {
   text-align: center;
   font-size: 2rem;
   line-height: 1.5;
   letter-spacing: 2px;
   color: #333;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
 }
-.imageadjust1{
-	margin-left:40px;
-	margin-bottom:80px;
-	margin-right: -270px;
-	height:200px;
-	width:200px;
+.text-center-box{
+	margin-bottom:-120px;
+}
+#left{
+	margin-top:-500px;
+	margin-left:20px;
 	
 }
-.logo-img1{
-	height:200px;
-	width:200px;
+#right{
+	margin-top:-500px;
+	margin-right:20px;
 }
-.logo-img0{
-	height:200px;
-	width:200px;
-}
+
 
 
 
@@ -868,24 +869,25 @@ body {
 
   </style>
 
-  <div role="main" class="main">
+<div role="main" class="main">
   <div class="home-background" id="content">
-    <div class="imageadjust">
-      <img src="img/cse.png" alt="Right Logo" class="logo-img0"/>
-    </div>
 
-    <div class="text-center-box">
-      <h1>
-        ICAAAI - 2025 (DEC 11–13)<br>
-        DEPARTMENT OF CSE<br>
-        SRKR ENGINEERING COLLEGE<br>BHIMAVARAM
-      </h1>
-    </div>
-	<div class="imageadjust1">
-      <img src="img/iccaaaiLogo.png" alt="Right Logo" class="logo-img1"/>
-    </div>
+    <!-- Logo row -->
+    
+      <img src="img/cse.png" alt="Left Logo" class="logo-img" id="left">
+      <div class="text-center-box">
+        <h1>
+          ICAAAI - 2025 (DEC 11–13)<br>
+          DEPARTMENT OF CSE<br>
+          SRKR ENGINEERING COLLEGE<br>BHIMAVARAM
+        </h1>
+      </div>
+      <img src="img/iccaaaiLogo.png" alt="Right Logo" class="logo-img" id="right">
+    
+
   </div>
 </div>
+
 
 
   <!-- Modal Popup to display PDF -->
